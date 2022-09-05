@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: cimg/go:1.17
         auth:
-          username: "aryan3690"
+          username: $DOCKER_USER
           password: $DOCKER_PASS  
     steps:
       - checkout
